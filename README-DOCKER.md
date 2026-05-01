@@ -18,8 +18,8 @@ docker-compose up -d
 ```
 
 ### 3. Acessar a aplicação
-- **API:** http://localhost:8080
-- **Swagger UI:** http://localhost:8080/swagger-ui.html
+- **API:** http://localhost:8080/api/produtos
+- **Swagger UI:** http://localhost:8080/swagger-ui/index.html
 
 ### 4. Pararar os containers
 ```bash
