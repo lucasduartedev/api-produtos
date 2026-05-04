@@ -33,7 +33,7 @@ public class ProdutoController {
         return ResponseEntity.status(HttpStatus.CREATED).body(produto);
     }
 
-    @PostMapping("/lista")
+    @PostMapping("/lote")
     @Transactional
     public ResponseEntity<List<Produto>> cadastrarProdutos(@RequestBody @Valid List<ProdutoCadastrarDTO> dados) {
         List<Produto> produtos = dados.stream()
