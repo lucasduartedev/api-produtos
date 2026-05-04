@@ -99,7 +99,7 @@ http://localhost:8080/v3/api-docs
 | Método | Endpoint                    | Descrição |
 |--------|-----------------------------|-----------|
 | `POST` | `/api/produtos`             | Cadastrar um novo produto |
-| `POST` | `/api/produtos/lista`       | Cadastrar múltiplos produtos |
+| `POST` | `/api/produtos/lote`        | Cadastrar múltiplos produtos |
 | `GET` | `/api/produtos`             | Listar produtos ativos com paginação |
 | `GET` | `/api/produtos/{id}`        | Buscar produto por ID |
 | `PUT` | `/api/produtos/{id}`        | Atualizar um produto |
@@ -225,7 +225,7 @@ A aplicação utiliza **Spring Security** para proteger os endpoints. O Swagger 
 
 ## 💾 Banco de Dados
 
-### Estrutura da Tabela Produtos
+### Estrutura da Tabela Produtos (será alterada)
 
 ```sql
 CREATE TABLE produtos (
@@ -243,6 +243,10 @@ CREATE TABLE produtos (
 -->
 
 As migrations são gerenciadas automaticamente pelo **Flyway**.
+
+## 👨‍💻 Autor
+
+Lucas Santana Duarte
 
 <!--
 ## 🧪 Testes
@@ -265,4 +269,4 @@ Desenvolvido como prática de **API REST com Spring Boot**
 
 ---
 
-**Última atualização:** 01/05/2026
+**Última atualização:** 04/05/2026
