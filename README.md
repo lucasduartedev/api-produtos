@@ -265,8 +265,8 @@ Este projeto é fornecido como exemplo educacional.
 
 Desenvolvido como prática de **API REST com Spring Boot**
 
--->
 
 ---
 
 **Última atualização:** 04/05/2026
+-->
